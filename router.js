@@ -113,7 +113,6 @@ router.post("/category", async (req, res) => {
   
       // Generate ID and Handle for bike
       const categoryId = uuidv4();
-      const bikeHandle = slugify(bikeObject.title).toLocaleLowerCase();
   
       // Create full bike object
       const category = {
