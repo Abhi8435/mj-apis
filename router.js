@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 import { Record, String, Number, Boolean } from "runtypes";
 
 //import { authenticateUser } from "./auth.js";
-import CyclicDb from "@cyclic.sh/dynamodb";
+import CyclicDb from "cyclic-dynamodb";
 
 import { Router } from "express";
 
